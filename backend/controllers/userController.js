@@ -1,6 +1,6 @@
 const express = require('express')
 const bcrypt = require('bcrypt')
-const User = require('../models/User')
+const User = require('../models/user')
 const {sendResponseError} = require('../middleware/middleware')
 const {checkPassword, newToken} = require('../utils/utility.function')
 
