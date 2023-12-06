@@ -1,5 +1,5 @@
 const User = require('../models/User')
-const {verifyToken} = require('../utils/utilityFunction')
+const {verifyToken} = require('../utils/utility.function')
 
 const sendResponseError = (statusCode, msg, res) => {
   res.status(statusCode || 400).send(!!msg ? msg : 'Invalid input !!')
